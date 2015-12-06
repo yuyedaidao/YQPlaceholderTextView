@@ -15,6 +15,9 @@
 		550E2F141C142E7200022670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550E2F121C142E7200022670 /* LaunchScreen.storyboard */; };
 		550E2F1F1C142E7200022670 /* YQPlaceholderTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 550E2F1E1C142E7200022670 /* YQPlaceholderTextViewTests.m */; };
 		550E2F2A1C142E7200022670 /* YQPlaceholderTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 550E2F291C142E7200022670 /* YQPlaceholderTextViewUITests.m */; };
+		550E2F3A1C142EF300022670 /* UITextView+YQPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 550E2F391C142EF300022670 /* UITextView+YQPlaceholder.m */; };
+		550E2F3B1C142EF300022670 /* UITextView+YQPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 550E2F391C142EF300022670 /* UITextView+YQPlaceholder.m */; };
+		550E2F3C1C142EF300022670 /* UITextView+YQPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 550E2F391C142EF300022670 /* UITextView+YQPlaceholder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,8 @@
 		550E2F251C142E7200022670 /* YQPlaceholderTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQPlaceholderTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		550E2F291C142E7200022670 /* YQPlaceholderTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQPlaceholderTextViewUITests.m; sourceTree = "<group>"; };
 		550E2F2B1C142E7200022670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		550E2F381C142EF300022670 /* UITextView+YQPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+YQPlaceholder.h"; sourceTree = "<group>"; };
+		550E2F391C142EF300022670 /* UITextView+YQPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+YQPlaceholder.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,7 @@
 		550E2EF81C142E7200022670 = {
 			isa = PBXGroup;
 			children = (
+				550E2F371C142E9800022670 /* Classes */,
 				550E2F031C142E7200022670 /* YQPlaceholderTextView */,
 				550E2F1D1C142E7200022670 /* YQPlaceholderTextViewTests */,
 				550E2F281C142E7200022670 /* YQPlaceholderTextViewUITests */,
@@ -138,6 +144,15 @@
 				550E2F2B1C142E7200022670 /* Info.plist */,
 			);
 			path = YQPlaceholderTextViewUITests;
+			sourceTree = "<group>";
+		};
+		550E2F371C142E9800022670 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				550E2F381C142EF300022670 /* UITextView+YQPlaceholder.h */,
+				550E2F391C142EF300022670 /* UITextView+YQPlaceholder.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +288,7 @@
 				550E2F0C1C142E7200022670 /* ViewController.m in Sources */,
 				550E2F091C142E7200022670 /* AppDelegate.m in Sources */,
 				550E2F061C142E7200022670 /* main.m in Sources */,
+				550E2F3A1C142EF300022670 /* UITextView+YQPlaceholder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				550E2F1F1C142E7200022670 /* YQPlaceholderTextViewTests.m in Sources */,
+				550E2F3B1C142EF300022670 /* UITextView+YQPlaceholder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				550E2F2A1C142E7200022670 /* YQPlaceholderTextViewUITests.m in Sources */,
+				550E2F3C1C142EF300022670 /* UITextView+YQPlaceholder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
