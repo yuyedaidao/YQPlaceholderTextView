@@ -15,6 +15,6 @@
 
 /**placeholder左边留白 默认7*/
 @property (nonatomic, assign) CGFloat yq_placeholderLeftPadding;
-/**placeholder上边边留白 默认7*/
+/**placeholder上边留白 默认7*/
 @property (nonatomic, assign) CGFloat yq_placeholderTopPadding;
 @end

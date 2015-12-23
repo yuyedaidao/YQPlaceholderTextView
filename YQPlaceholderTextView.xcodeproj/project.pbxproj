@@ -18,6 +18,8 @@
 		550E2F3A1C142EF300022670 /* UITextView+YQPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 550E2F391C142EF300022670 /* UITextView+YQPlaceholder.m */; };
 		550E2F3B1C142EF300022670 /* UITextView+YQPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 550E2F391C142EF300022670 /* UITextView+YQPlaceholder.m */; };
 		550E2F3C1C142EF300022670 /* UITextView+YQPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 550E2F391C142EF300022670 /* UITextView+YQPlaceholder.m */; };
+		55122D881C2AD9FF00BC9ACA /* guide1.png in Resources */ = {isa = PBXBuildFile; fileRef = 55122D871C2AD9FF00BC9ACA /* guide1.png */; };
+		55122D8A1C2ADA9800BC9ACA /* guide2.png in Resources */ = {isa = PBXBuildFile; fileRef = 55122D891C2ADA9800BC9ACA /* guide2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		550E2F2B1C142E7200022670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		550E2F381C142EF300022670 /* UITextView+YQPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+YQPlaceholder.h"; sourceTree = "<group>"; };
 		550E2F391C142EF300022670 /* UITextView+YQPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+YQPlaceholder.m"; sourceTree = "<group>"; };
+		55122D871C2AD9FF00BC9ACA /* guide1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guide1.png; sourceTree = "<group>"; };
+		55122D891C2ADA9800BC9ACA /* guide2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guide2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 		550E2F031C142E7200022670 /* YQPlaceholderTextView */ = {
 			isa = PBXGroup;
 			children = (
+				55122D871C2AD9FF00BC9ACA /* guide1.png */,
+				55122D891C2ADA9800BC9ACA /* guide2.png */,
 				550E2F071C142E7200022670 /* AppDelegate.h */,
 				550E2F081C142E7200022670 /* AppDelegate.m */,
 				550E2F0A1C142E7200022670 /* ViewController.h */,
@@ -258,7 +264,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55122D881C2AD9FF00BC9ACA /* guide1.png in Resources */,
 				550E2F141C142E7200022670 /* LaunchScreen.storyboard in Resources */,
+				55122D8A1C2ADA9800BC9ACA /* guide2.png in Resources */,
 				550E2F111C142E7200022670 /* Assets.xcassets in Resources */,
 				550E2F0F1C142E7200022670 /* Main.storyboard in Resources */,
 			);
@@ -514,6 +522,7 @@
 				550E2F301C142E7200022670 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		550E2F311C142E7200022670 /* Build configuration list for PBXNativeTarget "YQPlaceholderTextViewTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +531,7 @@
 				550E2F331C142E7200022670 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		550E2F341C142E7200022670 /* Build configuration list for PBXNativeTarget "YQPlaceholderTextViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +540,7 @@
 				550E2F361C142E7200022670 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

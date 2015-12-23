@@ -12,6 +12,7 @@
 #define YQ_Default_Padding 7.0f
 
 @implementation UITextView (YQPlaceholder)
+
 @dynamic yq_placeholder,yq_placeholderColor,yq_placeholderLeftPadding,yq_placeholderTopPadding;
 
 - (CGFloat)yq_placeholderLeftPadding{
